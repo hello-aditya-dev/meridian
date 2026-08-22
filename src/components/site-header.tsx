@@ -77,8 +77,8 @@ function DesktopMenu({
       </button>
       <div
         className={cn(
-          "absolute left-1/2 top-full z-50 -translate-x-1/2 pt-2 transition-all duration-150",
-          isOpen ? "visible opacity-100 translate-y-0" : "invisible opacity-0 translate-y-1"
+          "absolute left-0 top-full z-50 pt-2 transition-all duration-150",
+          isOpen ? "visible translate-y-0 opacity-100" : "invisible -translate-y-1 opacity-0"
         )}
       >
         <div
