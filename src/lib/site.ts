@@ -4,7 +4,7 @@ export const site = {
   tagline: "The operating layer for modern enterprise",
   description:
     "Meridian unifies planning, monitoring, analytics and optimization into one system of record — so operations teams move faster than their complexity grows.",
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://meridian-witejackel-4928s-projects.vercel.app",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://meridian-witejackel-4928s-projects.vercel.app",
   email: {
     sales: "sales@meridianhq.com",
     support: "support@meridianhq.com",
